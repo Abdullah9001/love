@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>love calcuter</h1>
+   <div class="heart center"></div>
+   <div class="persons">
+      <div class="person" id="card1">
+        <p class="name" id="person1">Obama</p>
+        <form>
+          <label for="fname" class="nameLabel">Enter name:</label>
+          <input type="text" id="nameInput1"/>
+        </form>
+        <button onClick="update1()" class="setButton" id="b1">SET</button>
+      </div>
+      <div class="person" id="card2">
+        <p class="name" id="person2">Biden</p>
+        <form>
+          <label for="fname" class="nameLabel">Enter name:</label>
+          <input type="text" id="nameInput2">
+        </form>
+        <button onClick="update2()" class="setButton" id="b2">SET</button>
+      </div>
+     <button  onClick="magicHappens()" id="compute">CALCULATE</button>
+     <p id="resultLabel" hidden></p>
+   </div>
+
+
+
+   <script src="app.js"></script>
+</body>
+</html>
